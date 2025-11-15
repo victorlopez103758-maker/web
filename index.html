@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vi Concept Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <header>
+    <div class="encabezado">
+        <img src="imagenes/logo.png.jpg" alt="Vi Concept Studio" class="logo">
+        <h1>Vi Concept Studio</h1>
+    </div>
+
+        
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="geometria.html">Geometría</a></li>
+                <li><a href="materiales.html">Materiales</a></li>
+                <li><a href="vision.html">Visión</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Diseño arquitectónico, documentación técnica, branding y planificación espacial.</p>
+    </section>
+
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <div class="proyecto">
+  <a href="/galeria/">
+    <img src="imagenes/imagen de la sala un.png" alt="Cocina integrada Vi Concept Studio">
+  </a>
+  <h3>Cocina integrada</h3>
+  <p>Diseño técnico de cocina abierta con iluminación lineal, mobiliario modular y electrodomésticos ocultos.</p>
+</div>
+
+<!-- Lightbox oculto -->
+                    <div id="lightbox" onclick="cerrarLightbox()">
+                        <img id="lightbox-img" src="" alt="Vista ampliada">
+                    </div>
+                <div class="proyecto">
+                    <img src="imagenes/ChatGPT Image 10 nov 2025, 21_29_24.png" alt="Estudio creativo Vi Concept Studio">
+                    <h3>Estudio creativo</h3>
+                    <p>Distribución espacial para estudio de diseño con zonas de trabajo, reunión y exposición.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/hazla a 15 cm del pi.png" alt="habitacion moderna Vi Concept Studio">
+                    <h3>Habitaciónes modernas</h3>
+                    <p>Espacios diseñados para el descanso y la claridad: líneas puras, iluminación controlada y materiales que transmiten
+                    calma.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/layout.png" alt="Layout funcional Vi Concept Studio">
+                    <h3>Layout funcional</h3>
+                    <p>Optimización de planta abierta con integración de cocina, comedor y sala, respetando la armonía visual.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="galeria">
+            <!-- Aquí puedes insertar imágenes de tus proyectos -->
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo">
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+<footer>
+    <div class="footer-contacto">
+        <p><strong>¿Tienes un proyecto en mente?</strong></p>
+        <p>Escríbenos o llámanos para transformar tus ideas en espacios funcionales y memorables.</p>
+        <p>📱 +57 304 5560623</p>
+        <p>✉️ contacto@viconceptstudio.com</p>
+        <a href="https://wa.me/573001234567" target="_blank" class="btn-wsp">💬 Escríbenos por WhatsApp</a>
+        <p>&copy; 2025 Vi Concept Studio</p>
+    </div>
+</footer>
+
+<!-- Lightbox oculto -->
+<div id="lightbox" onclick="cerrarLightbox()">
+    <img id="lightbox-img" src="" alt="Vista ampliada">
+</div>
+
+<!-- Enlace al script -->
+<script src="script.js"></script>
+</body>
+
+</html>
+

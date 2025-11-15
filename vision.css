@@ -1,0 +1,29 @@
+.vision {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.vision h2 {
+    font-size: 1.8rem;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.vision ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vision li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
